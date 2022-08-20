@@ -1,9 +1,9 @@
-package one.digitalinnovation.padroesprojetospring.service.impl;
+package one.digitalinnovation.padroesprojetospring.service;
 
 import one.digitalinnovation.padroesprojetospring.model.Cliente;
 import org.springframework.stereotype.Service;
 
-@Service
+
 public interface ClienteService {
     Iterable<Cliente> buscarTodos();
 
